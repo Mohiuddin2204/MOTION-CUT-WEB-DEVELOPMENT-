@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Project</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Sidebar Navigation Menu */
+        #sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #4CAF50;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            z-index: 1;
+        }
+
+        #sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #ffffff;
+            display: block;
+            transition: 0.3s;
+        }
+
+        #sidebar a:hover {
+            background-color: #333;
+        }
+
+        /* Button to open the sidebar */
+        #menu-icon {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            font-size: 43.5px;
+            cursor: pointer;
+            z-index: 2;
+            color: green;
+        }
+
+        /* Style for active section in the sidebar */
+        #sidebar a.active {
+            background-color: #333;
+        }
+
+        /* Different styling for menu icons */
+        #home-icon {
+            background-color: #3498db;
+            font-size: 40px;
+        }
+
+        #about-icon {
+            background-color: #e74c3c;
+            font-size: 40px;
+        }
+
+        #education-icon {
+            background-color: #f39c12;
+            font-size: 40px;
+        }
+
+        #projects-icon {
+            background-color: #2ecc71;
+            font-size: 40px;
+        }
+
+        #achievements-icon {
+            background-color: #9b59b6;
+            font-size: 40px;
+        }
+		#skills-icon {
+			background-color: blue;
+			font-size: 40px;
+		}
+    </style>
+</head>
+<body>
+    <!-- Button to open the sidebar -->
+    <div id="menu-icon" onclick="toggleSidebar()">&#9776;</div>
+
+    <!-- Sidebar Navigation Menu -->
+    <div id="sidebar">
+        <a href="#home" id="home-icon">Port-Folio🏠</a>
+        <a href="#about" id="about-icon">About</a>
+        <a href="#education" id="education-icon">Education📚</a>
+        <a href="#projects" id="projects-icon">Projects</a>
+		<a href="#skills" id="skills-icon">Skills</a>
+        <a href="#achievements" id="achievements-icon">Achievements & Certifications🏆</a>
+    </div>
+    
+    <!--Home(start)-->
+    <table id="home" border="1" width="100%" cellpadding="20" cellspacing="0" bgcolor="black">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td align="center" valign="middle">
+                            <h3>
+                                <font face="Times New Roman" size="6" color="#ffffff">
+                                    MOHAMMED MOHIUDDIN<br><br>
+									<hr style="color: #f39c12;"><br>
+									PORT-FOLIO<br>
+                                </font>
+                            </h3>
+                            <h2>
+                                <font face="Verdana" size="6" color="#4CAF50">
+                                    <!-- Freelance Programmer -->
+                                </font>
+                            </h2>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Home(end)-->
+
+   <!--About(start)-->
+<table id="about" border="0" width="100%" cellpadding="0" cellspacing="0" style="background-color: darkmagenta;">
+    <tr>
+        <td>
+            <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                <tr>
+                    <td height="180" align="center" valign="middle" colspan="2">
+                        <font face="Verdana" size="7" color="#4CAF50">
+                            About Me
+                        </font>
+                        <br><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td width="40%">
+                        <img src="photo mohiuddin.jpeg">
+                    </td>
+
+                    <td width="60%">
+                        <font face="Verdana" size="4" color="white">
+                            Thanks for your interest, here is a quick story of me.
+                            <br><br>
+                            Mohammed Mohiuddin studying V Semester B.E CSE-1, Chaitanya Bharathi Institute of Technology (CBIT).
+                            <br><br>
+                            I do my work mainly in C-Language, Data Structure & Algorithm, HTML, CSS, DBMS, and Mathematics are my stronger section.
+                            <br><br>
+                            Love solving different Mathematics and Problem-solving optimization problems.
+                            <br>
+                            D.O.B: 22-04-2004 <br>
+                            Address: 14-4-66, Mandi Bazar, Warangal Urban 506002, Telangana, India <br>
+                            Phone: +919704408365 <br>
+                            E-mail ID: mohiuddinafnan02004@gmail.com
+                            <br>
+                            Thanks again for reading this because of people like you, it exists and prospers!
+                            <br><br>
+                            Cheers,
+                            <b>Mohiuddin The Great!</b>
+                        </font>
+
+                        <!-- Add the button link here -->
+                        <br><br>
+                        <a href="https://drive.google.com/file/d/1xAqc2yeaP5MrF0hGE3wBYtPdGCDNSERR/view?usp=share_link" style="text-decoration: none;">
+                            <button style="background-color: green; color: white; padding: 10px 20px; font-size: 16px; border: none; cursor: pointer;">RESUME</button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <br><br>
+        </td>
+    </tr>
+</table>
+<!--About(end)-->
+
+
+	<!--Education(start)-->
+<table id="education" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="lightblue">
+	<tr>
+	  <td>
+		<table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+		  <tr>
+			<td height="180" align="center" valign="middle">
+			  <font face="Verdana" size="7" color="black">
+				Education
+				<hr color="black" width="100">
+			  </font>
+			</td>
+		  </tr>
+  
+		  <tr>
+			<td>
+			  <font face="Verdana" size="4" color="black">
+				<ul>
+				  
+					12/2021 – present  HYDERABAD, INDIA <br>
+					Computer Science and Engineering | B.E<br>
+					Chaitanya Bharathi Institute of Technology<br>
+					Current CGPA: 9.79<br>
+					<br><br>
+					2019 – 2021  HYDERABAD, INDIA<br>
+					Intermediate Education<br>
+					Narayana Junior College<br>
+					Percentage: 99.20%<br>
+					<br><br>
+					WARANGAL URBAN, INDIA<br>
+					Schooling Education | SSC<br>
+					Shine High School(9th&10th) and S R Digi School(1st–8th)<br>
+					CGPA: 10.0<br>
+					<br><br>
+
+  
+		
+				</ul>
+			  </font>
+			</td>
+		  </tr>
+		</table>
+	  </td>
+	</tr>
+  </table>
+  <!--Education(end)-->
+  
+
+	<!--Projects(start)-->
+	<table id="projects" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="Verdana" size="7"
+								color="black">
+								Projects
+							</font>
+							<hr color="black" width="90">
+						</td>
+					</tr>
+
+					<tr>
+						<td height="10">
+							<font face="Times New Roman"
+								size="5" color="black">
+								<ul>
+									<li>
+										<hr color="#c2c0c3">
+										CBIT Internal Marks Management System
+									</li>
+
+									<li>
+										<hr color="#c2c0c3">
+										Smart Irrigation System
+									</li>
+
+									<li>
+										<hr color="#c2c0c3">
+										Customer Billing Gadget
+									</li>
+								</ul>
+								<hr color="#c2c0c3">
+								<hr color="#c2c0c3">
+								<hr color="#c2c0c3">
+								<hr color="#c2c0c3">
+							</font>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Projects(end)-->
+
+	<!--skills start-->
+	<table id="skills" border="0" width="100%"
+	cellpadding="0" cellspacing="0" bgcolor="#f39c12">
+	<tr>
+		<td>
+			<table border="0" cellpadding="15"
+				cellspacing="0" width="80%" align="center">
+				<tr>
+					<td height="180" align="center"
+						valign="middle" colspan="2">
+						<font face="Verdana" size="7"
+							color="black">
+							Skills
+						</font>
+						<hr color="black" width="90">
+					</td>
+				</tr>
+
+				<tr>
+					<td height="10">
+						<font face="Times New Roman"
+							size="5" color="black">
+							<ul>
+								<li>
+							
+									C<br><br>
+								</li>
+
+								<li>
+									
+									Python<br><br>
+								</li>
+
+								<li>
+									
+									Data Structures<br><br>
+								</li>
+								<li>
+								
+									HTML CSS JAVASCRIPT<br><br>
+								</li>
+
+								<li>
+									
+									DBMS (SQL)<br><br>
+								</li>
+
+								<li>
+									
+									MATHEMATICS - PROBLEM SOLVING <br><br>
+								</li>
+							</ul>
+							<br><br>
+						</font>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<!--skills end-->
+
+	<!--Achievement(start)-->
+	<table id="achievements" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center" valign="middle">
+							<font face="Verdana" size="7" color="#4CAF50">
+								Achievements&Certifications
+								<hr color="#4CAF50" width="100">
+							</font>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<font face="Verdana" size="4" color="white">
+								<ul>
+									<li>
+										<b>Hackathons</b>
+										<ul>
+											<li>
+												Won 1 out of 2 participated.
+											</li>
+										</ul>
+									</li>
+									<br><br>
+									<li>
+										<b>TASK Oracle JAVA Certificate</b>
+										<ul>
+											<li>
+												Learnt JAVA in the internship drive.<br><br>
+											</li>
+										</ul>
+									</li>
+								</ul>
+
+							</font>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Achievement(end)-->
+
+
+	
+
+	<!--Footer1(start)-->
+	<table id="footer" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#4CAF50">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td width="13%" valign="top">
+							<b>LinkedIn : </b>
+							<a href="https://www.linkedin.com/in/mohammed-mohiuddin-82a742268/" style="text-decoration:none;font-size: 30px;">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>GitHub : </b>
+							<a href="https://github.com/MohdMohiuddin55/MyMotionCutProjects" style="text-decoration:none;font-size: 30px;">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+						<td width="13%" valign="top">
+							<b>HackerRank :</b><br>
+							<b>mohiuddinafnan01</b>
+						</td>
+						
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>Twitter/X : </b><br>
+							<b>MMohiuddin2204</b>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>Instagram : </b><br>
+							<b>affirmative_mohiuddin2204</b>
+						</td>
+
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Footer1(end)-->
+
+
+	<!--Footer2(start)-->
+	<table id="footer" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td width="80%" valign="top">
+							<font face="Verdana"
+								color="#4CAF50" size="5">
+								©Copyright 2050 by MOHIUDDIN. 
+								All rights reserved.
+							</font>
+						</td>
+
+						<td width="10%">
+							<font face="arial" color="black" size="5">
+								<a href="#home" style="text-decoration:none">
+									<font face="Verdana" color="#4CAF50" size="6">
+										<b>TOP</b>
+									</font>
+								</a>
+							</font>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+    <!--Footer2 end-->
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById("sidebar");
+            if (sidebar.style.width === "250px") {
+                sidebar.style.width = "0";
+            } else {
+                sidebar.style.width = "250px";
+            }
+        }
+
+        // Close sidebar when clicking anywhere on the screen
+        window.addEventListener('click', function (e) {
+            if (document.getElementById("sidebar").style.width === "250px" && e.clientX > 250) {
+                toggleSidebar();
+            }
+        });
+
+        // Scroll spy functionality to highlight active section
+        window.addEventListener('scroll', function () {
+            const sections = document.querySelectorAll('section');
+            let current = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop && pageYOffset < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            // Highlight the active section in the sidebar
+            const links = document.querySelectorAll('#sidebar a');
+            links.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
